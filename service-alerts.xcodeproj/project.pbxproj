@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		725F26AEBD00AE2241220CB7 /* Pods_service_alerts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF5F9CD250317A50F6CF9B /* Pods_service_alerts.framework */; };
+		E75A6EE823CE9EA8008BB360 /* DataModel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75A6EE723CE9EA8008BB360 /* DataModel.pb.swift */; };
+		E75A6EEA23CEB0F3008BB360 /* ServiceAlertsModel.proto in Resources */ = {isa = PBXBuildFile; fileRef = E75A6EE923CEB0F3008BB360 /* ServiceAlertsModel.proto */; };
+		E75A6EEC23CEB1C6008BB360 /* ServiceAlertsModel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75A6EEB23CEB1C6008BB360 /* ServiceAlertsModel.pb.swift */; };
+		E75A6EEE23CECE3B008BB360 /* gtfs-realtime.proto in Sources */ = {isa = PBXBuildFile; fileRef = E75A6EED23CECE3B008BB360 /* gtfs-realtime.proto */; };
+		E75A6EF023CECE90008BB360 /* gtfs-realtime.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75A6EEF23CECE90008BB360 /* gtfs-realtime.pb.swift */; };
+		E76A9CB623CE9C850090BD45 /* DataModel.proto in Sources */ = {isa = PBXBuildFile; fileRef = E76A9CB523CE9C850090BD45 /* DataModel.proto */; };
 		E7C798F323CE97E9004DE5D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C798F223CE97E9004DE5D9 /* AppDelegate.swift */; };
 		E7C798F523CE97E9004DE5D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C798F423CE97E9004DE5D9 /* SceneDelegate.swift */; };
 		E7C798F723CE97E9004DE5D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C798F623CE97E9004DE5D9 /* ViewController.swift */; };
@@ -16,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21DF5F9CD250317A50F6CF9B /* Pods_service_alerts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_service_alerts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7166A66D64D26136D5F492 /* Pods-service-alerts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-service-alerts.release.xcconfig"; path = "Target Support Files/Pods-service-alerts/Pods-service-alerts.release.xcconfig"; sourceTree = "<group>"; };
+		E75A6EE723CE9EA8008BB360 /* DataModel.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.pb.swift; sourceTree = "<group>"; };
+		E75A6EE923CEB0F3008BB360 /* ServiceAlertsModel.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = ServiceAlertsModel.proto; sourceTree = "<group>"; };
+		E75A6EEB23CEB1C6008BB360 /* ServiceAlertsModel.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceAlertsModel.pb.swift; sourceTree = "<group>"; };
+		E75A6EED23CECE3B008BB360 /* gtfs-realtime.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = "gtfs-realtime.proto"; sourceTree = "<group>"; };
+		E75A6EEF23CECE90008BB360 /* gtfs-realtime.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "gtfs-realtime.pb.swift"; sourceTree = "<group>"; };
+		E76A9CB523CE9C850090BD45 /* DataModel.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = DataModel.proto; sourceTree = "<group>"; };
 		E7C798EF23CE97E9004DE5D9 /* service-alerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "service-alerts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C798F223CE97E9004DE5D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7C798F423CE97E9004DE5D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,7 @@
 		E7C798FB23CE97EB004DE5D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7C798FE23CE97EB004DE5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7C7990023CE97EB004DE5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4A644BF04375231DFC9764 /* Pods-service-alerts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-service-alerts.debug.xcconfig"; path = "Target Support Files/Pods-service-alerts/Pods-service-alerts.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				725F26AEBD00AE2241220CB7 /* Pods_service_alerts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C5EF32E144A23CA293B5992 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21DF5F9CD250317A50F6CF9B /* Pods_service_alerts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		821E8E5D89119C77929C8987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE4A644BF04375231DFC9764 /* Pods-service-alerts.debug.xcconfig */,
+				6A7166A66D64D26136D5F492 /* Pods-service-alerts.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E7C798E623CE97E9004DE5D9 = {
 			isa = PBXGroup;
 			children = (
 				E7C798F123CE97E9004DE5D9 /* service-alerts */,
 				E7C798F023CE97E9004DE5D9 /* Products */,
+				821E8E5D89119C77929C8987 /* Pods */,
+				5C5EF32E144A23CA293B5992 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +92,9 @@
 		E7C798F123CE97E9004DE5D9 /* service-alerts */ = {
 			isa = PBXGroup;
 			children = (
+				E75A6EEF23CECE90008BB360 /* gtfs-realtime.pb.swift */,
+				E75A6EEB23CEB1C6008BB360 /* ServiceAlertsModel.pb.swift */,
+				E75A6EE723CE9EA8008BB360 /* DataModel.pb.swift */,
 				E7C798F223CE97E9004DE5D9 /* AppDelegate.swift */,
 				E7C798F423CE97E9004DE5D9 /* SceneDelegate.swift */,
 				E7C798F623CE97E9004DE5D9 /* ViewController.swift */,
@@ -63,6 +102,9 @@
 				E7C798FB23CE97EB004DE5D9 /* Assets.xcassets */,
 				E7C798FD23CE97EB004DE5D9 /* LaunchScreen.storyboard */,
 				E7C7990023CE97EB004DE5D9 /* Info.plist */,
+				E76A9CB523CE9C850090BD45 /* DataModel.proto */,
+				E75A6EE923CEB0F3008BB360 /* ServiceAlertsModel.proto */,
+				E75A6EED23CECE3B008BB360 /* gtfs-realtime.proto */,
 			);
 			path = "service-alerts";
 			sourceTree = "<group>";
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7C7990323CE97EB004DE5D9 /* Build configuration list for PBXNativeTarget "service-alerts" */;
 			buildPhases = (
+				ABA18C9AFFE929BEAC6C85EB /* [CP] Check Pods Manifest.lock */,
 				E7C798EB23CE97E9004DE5D9 /* Sources */,
 				E7C798EC23CE97E9004DE5D9 /* Frameworks */,
 				E7C798ED23CE97E9004DE5D9 /* Resources */,
+				0C2C956BF7AED519D9358AFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75A6EEA23CEB0F3008BB360 /* ServiceAlertsModel.proto in Resources */,
 				E7C798FF23CE97EB004DE5D9 /* LaunchScreen.storyboard in Resources */,
 				E7C798FC23CE97EB004DE5D9 /* Assets.xcassets in Resources */,
 				E7C798FA23CE97E9004DE5D9 /* Main.storyboard in Resources */,
@@ -133,14 +178,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C2C956BF7AED519D9358AFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-service-alerts/Pods-service-alerts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-service-alerts/Pods-service-alerts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-service-alerts/Pods-service-alerts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA18C9AFFE929BEAC6C85EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-service-alerts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7C798EB23CE97E9004DE5D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76A9CB623CE9C850090BD45 /* DataModel.proto in Sources */,
+				E75A6EEE23CECE3B008BB360 /* gtfs-realtime.proto in Sources */,
 				E7C798F723CE97E9004DE5D9 /* ViewController.swift in Sources */,
 				E7C798F323CE97E9004DE5D9 /* AppDelegate.swift in Sources */,
+				E75A6EEC23CEB1C6008BB360 /* ServiceAlertsModel.pb.swift in Sources */,
+				E75A6EF023CECE90008BB360 /* gtfs-realtime.pb.swift in Sources */,
 				E7C798F523CE97E9004DE5D9 /* SceneDelegate.swift in Sources */,
+				E75A6EE823CE9EA8008BB360 /* DataModel.pb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +374,7 @@
 		};
 		E7C7990423CE97EB004DE5D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4A644BF04375231DFC9764 /* Pods-service-alerts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +393,7 @@
 		};
 		E7C7990523CE97EB004DE5D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7166A66D64D26136D5F492 /* Pods-service-alerts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
